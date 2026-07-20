@@ -169,6 +169,76 @@
       "difficulty": "Medium",
       "time_to_first_euro": "1-2 weeks",
       "pitch": "Messy data fixed in 48 hours — no full-time hire needed."
+    },
+    {
+      "id": "obituary-writing",
+      "name": "Funeral & Obituary Writing Service",
+      "category": "Stille Niche",
+      "problem": "Grieving families freeze at writing a tribute; funeral homes outsource nothing personal.",
+      "audience": "Families, funeral directors, hospices.",
+      "offer": "Done-for-you obituary / celebration-of-life text, sensitive and fast (24h).",
+      "price": "€80-250 per piece",
+      "channels": ["Funeral home partnerships", "Reddit r/GriefSupport", "Facebook memorial groups", "Google local"],
+      "tools": ["Notion", "Google Docs", "Ko-fi", "Canva"],
+      "difficulty": "Low",
+      "time_to_first_euro": "3-7 days",
+      "pitch": "Words for the hardest day — written with care, delivered in 24h."
+    },
+    {
+      "id": "ai-receptionist-local",
+      "name": "AI Receptionist Setup for Local Practices",
+      "category": "Stille Niche",
+      "problem": "Dentists/chiros/physios miss calls (and bookings) after hours.",
+      "audience": "Local clinics, salons, trades with phones.",
+      "offer": "Done-for-you 24/7 AI phone/reception setup + monthly care, no hire.",
+      "price": "€249 setup + €99/mo",
+      "channels": ["Google Maps scrape local clinics", "LinkedIn", "Cold email", "Chamber of Commerce"],
+      "tools": ["Manychat", "Voiceflow", "Zapier", "Cal.com"],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "pitch": "Never miss a booking at midnight again — your 24/7 AI receptionist, managed."
+    },
+    {
+      "id": "gbp-local-care",
+      "name": "Google Business Profile Care for SMEs",
+      "category": "Stille Niche",
+      "problem": "Local businesses are invisible on Maps but don't know why.",
+      "audience": "Trades, clinics, restaurants, shops in your city.",
+      "offer": "Monthly GBP audit + posts + review prompts + NAP cleanup.",
+      "price": "€49-149/mo",
+      "channels": ["Cold email local biz", "Google Maps scrape", "Facebook local groups"],
+      "tools": ["BrightLocal(free)", "Canva", "Notion", "Zapier"],
+      "difficulty": "Low",
+      "time_to_first_euro": "1 week",
+      "pitch": "Get found on Google Maps — we keep your profile working, you keep the phone ringing."
+    },
+    {
+      "id": "ecom-teardown",
+      "name": "Shopify Store Teardown & Analytics",
+      "category": "Stille Niche",
+      "problem": "Store owners drown in dashboards but get no plain-English answer.",
+      "audience": "DTC founders, Etsy migrants, pet/skincare shops.",
+      "offer": "Done-for-you store teardown: top leak, 5 fixes, 30-min call.",
+      "price": "€199-499 per audit",
+      "channels": ["Twitter/X ecom", "Reddit r/shopify", "LinkedIn", "Cold DM founders"],
+      "tools": ["Hermes", "Google Sheets", "Shopify reports", "Canva"],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-2 weeks",
+      "pitch": "The one audit that tells you why your store isn't converting — in plain English."
+    },
+    {
+      "id": "line-striping",
+      "name": "Parking Lot Line Striping",
+      "category": "Stille Niche",
+      "problem": "Faded lots look unsafe; managers must re-stripe but few offer it locally.",
+      "audience": "Property managers, warehouses, retail parks.",
+      "offer": "Mobile line-striping service, repeat contracts, low overhead.",
+      "price": "€500-2000 per lot",
+      "channels": ["Google Maps scrape lots", "Facility manager groups", "Cold call"],
+      "tools": ["Line striping kit", "Canva", "Invoice app"],
+      "difficulty": "Medium",
+      "time_to_first_euro": "2-4 weeks",
+      "pitch": "A sharper lot in a day — repeat business, almost recession-proof."
     }
   ]
 }

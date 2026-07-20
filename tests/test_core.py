@@ -11,7 +11,13 @@ from hustle_forge import core
 
 def run():
     niches = core.load_niches()
-    assert len(niches) == 12, f"expected 12 niches, got {len(niches)}"
+    assert len(niches) >= 12, f"expected >=12 niches, got {len(niches)}"
+    assert len({n["id"] for n in niches}) == len(niches), "duplicate niche ids"
+    expected_keys = {"id", "name", "category", "problem", "audience",
+                     "offer", "price", "channels", "tools", "difficulty",
+                     "time_to_first_euro", "pitch"}
+    for n in niches:
+        assert expected_keys <= set(n), f"niche {n.get('id')} missing keys"
     listing = core.list_niches()
     assert "ai-resume-rewrite" in listing
 
