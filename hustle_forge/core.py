@@ -44,13 +44,17 @@ def generate(niche_id, out_dir="output"):
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
 
+    basket = niche.get("basket", niche.get("category", ""))
     plan = (
         TPL_PLAN.read_text(encoding="utf-8")
         .replace("{version}", __version__)
         .replace("{name}", niche["name"])
         .replace("{category}", niche["category"])
+        .replace("{basket}", basket)
         .replace("{difficulty}", niche["difficulty"])
         .replace("{time_to_first_euro}", niche["time_to_first_euro"])
+        .replace("{competition}", niche.get("competition", "varies"))
+        .replace("{source}", niche.get("source", "internal research"))
         .replace("{problem}", niche["problem"])
         .replace("{audience}", niche["audience"])
         .replace("{offer}", niche["offer"])
