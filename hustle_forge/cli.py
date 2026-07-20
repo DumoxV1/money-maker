@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""hustle_forge CLI — generate a 0-budget side-hustle business kit.
+"""hustle_forge CLI — generate a business kit, optionally AI-authored.
 
 Examples
 --------
   python -m hustle_forge list
   python -m hustle_forge gen ai-resume-rewrite
-  python -m hustle_forge gen --random
-  python -m hustle_forge gen prompt-pack-shop --out my_kit
+  python -m hustle_forge gen --random --out my_kit
+  python -m hustle_forge gen ai-seo-affiliate-boring --ai     # force AI/LLM
+  python -m hustle_forge gen ai-resume-rewrite --template     # force template
 """
 import argparse
 import sys
@@ -21,7 +22,7 @@ def main(argv=None):
     p = argparse.ArgumentParser(
         prog="hustle_forge",
         description="0-budget AI side-hustle toolkit. Generate a full "
-        "business kit in seconds — no API key, no cost.",
+        "business kit — by default the plans are AI-authored.",
     )
     sub = p.add_subparsers(dest="cmd", required=True)
 
@@ -30,6 +31,10 @@ def main(argv=None):
     g = sub.add_parser("gen", help="Generate a business kit for a niche")
     g.add_argument("niche", nargs="?", help="Niche id (see 'list')")
     g.add_argument("--random", action="store_true", help="Pick a random niche")
+    g.add_argument("--ai", action="store_true",
+                   help="Force AI/LLM generation (needs HUSTLE_LLM_BASE_URL)")
+    g.add_argument("--template", action="store_true",
+                   help="Force the offline template (no LLM)")
     g.add_argument("--out", default="output", help="Output directory")
 
     args = p.parse_args(argv)
@@ -39,17 +44,26 @@ def main(argv=None):
         return 0
 
     if args.cmd == "gen":
+        if args.ai and args.template:
+            p.error("--ai and --template are mutually exclusive")
+        use_ai = None
+        if args.ai:
+            use_ai = True
+        if args.template:
+            use_ai = False
+
         niche_id = args.niche
         if args.random and not niche_id:
             niche_id = core.random_niche()
         if not niche_id:
             p.error("provide a niche id or --random")
         try:
-            plan, social = core.generate(niche_id, args.out)
+            plan, social = core.generate(niche_id, args.out, use_ai=use_ai)
         except SystemExit as e:
             print(str(e), file=sys.stderr)
             return 1
-        print(f"✅ Kit generated for '{niche_id}':")
+        mode = "AI-authored" if (use_ai is not False) else "template"
+        print(f"✅ Kit ({mode}) generated for '{niche_id}':")
         print(f"   • {plan}")
         print(f"   • {social}")
         print("\nNext: read the plan, pick your channel, ship the first post.")
