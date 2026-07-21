@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-07-20",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -12,8 +12,18 @@
       "audience": "You (autonomous operator); readers with clear buying intent.",
       "offer": "AI writes + edits 50-100 niche reviews/articles per month, monetized via Amazon Associates / affiliate networks.",
       "price": "$50-$2000/mo in affiliate commissions",
-      "channels": ["Google SEO", "Pinterest", "Reddit niche subs", "YouTube snippets"],
-      "tools": ["Hermes", "WordPress", "Ahrefs (free trial)", "Amazon Associates"],
+      "channels": [
+        "Google SEO",
+        "Pinterest",
+        "Reddit niche subs",
+        "YouTube snippets"
+      ],
+      "tools": [
+        "Hermes",
+        "WordPress",
+        "Ahrefs (free trial)",
+        "Amazon Associates"
+      ],
       "difficulty": "High",
       "time_to_first_euro": "2-6 months",
       "competition": "Low (boring = thin content competition)",
@@ -30,8 +40,17 @@
       "audience": "You (autonomous); viewers in evergreen niches (history, finance explainers, how-to).",
       "offer": "AI generates the script, AI voice (ElevenLabs), and assembles footage/stock into daily shorts + longform, monetized via ads + sponsors.",
       "price": "Ad revenue + sponsors; $100-$3000/mo at scale",
-      "channels": ["YouTube", "TikTok repurposing", "Pinterest"],
-      "tools": ["Hermes", "ElevenLabs", "CapCut", "stock footage libraries"],
+      "channels": [
+        "YouTube",
+        "TikTok repurposing",
+        "Pinterest"
+      ],
+      "tools": [
+        "Hermes",
+        "ElevenLabs",
+        "CapCut",
+        "stock footage libraries"
+      ],
       "difficulty": "Medium",
       "time_to_first_euro": "1-3 months (monetization threshold)",
       "competition": "Medium (faceless + AI lowers the barrier)",
@@ -48,8 +67,18 @@
       "audience": "Readers, teachers, and niche hobbyists wanting clean editions or merch.",
       "offer": "AI curates + formats public-domain works into eBooks, print-on-demand, and licensed merch.",
       "price": "€3-15/book, margin on POD/merch",
-      "channels": ["Amazon KDP", "Etsy", "Project Gutenberg curation", "Pinterest"],
-      "tools": ["Gutenberg.org", "Canva", "KDP", "Printful"],
+      "channels": [
+        "Amazon KDP",
+        "Etsy",
+        "Project Gutenberg curation",
+        "Pinterest"
+      ],
+      "tools": [
+        "Gutenberg.org",
+        "Canva",
+        "KDP",
+        "Printful"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "2-4 weeks",
       "competition": "Low (most ignore the public domain entirely)",
@@ -66,8 +95,18 @@
       "audience": "Founders, students, and productivity nerds.",
       "offer": "AI designs Notion / Sheets / Airtable templates and sells them as digital products.",
       "price": "€9-29 each, €79 vault",
-      "channels": ["Gumroad", "ProductHunt", "Reddit r/Notion", "Pinterest"],
-      "tools": ["Notion", "Gumroad", "Canva", "Hermes"],
+      "channels": [
+        "Gumroad",
+        "ProductHunt",
+        "Reddit r/Notion",
+        "Pinterest"
+      ],
+      "tools": [
+        "Notion",
+        "Gumroad",
+        "Canva",
+        "Hermes"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "3-10 days",
       "competition": "Medium (AI massively speeds production)",
@@ -84,8 +123,18 @@
       "audience": "Career changers, recent grads, laid-off professionals.",
       "offer": "AI polishes the resume + cover letter via a prompt chain, plus a 30-min strategy call (you or AI-booked).",
       "price": "€49 one-off, €129 with LinkedIn overhaul",
-      "channels": ["Reddit r/jobs", "LinkedIn posts", "Twitter/X job threads", "Facebook job groups"],
-      "tools": ["ChatGPT/Claude", "Canva", "Notion", "Cal.com"],
+      "channels": [
+        "Reddit r/jobs",
+        "LinkedIn posts",
+        "Twitter/X job threads",
+        "Facebook job groups"
+      ],
+      "tools": [
+        "ChatGPT/Claude",
+        "Canva",
+        "Notion",
+        "Cal.com"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "1-3 days",
       "competition": "Medium",
@@ -102,8 +151,16 @@
       "audience": "YouTubers, course creators, indie game devs.",
       "offer": "Natural AI voiceovers + multilingual dubbing for videos.",
       "price": "€0.10-0.20/word or €50-300/project",
-      "channels": ["Fiverr", "YouTube comments", "Reddit r/NewTubers"],
-      "tools": ["ElevenLabs", "Descript", "CapCut"],
+      "channels": [
+        "Fiverr",
+        "YouTube comments",
+        "Reddit r/NewTubers"
+      ],
+      "tools": [
+        "ElevenLabs",
+        "Descript",
+        "CapCut"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "3-7 days",
       "competition": "Medium",
@@ -120,8 +177,18 @@
       "audience": "Consumers in active settlements, data-breach victims, investors.",
       "offer": "AI curates open settlements, prepares and files the claim forms on the client's behalf for a cut.",
       "price": "€20-50/claim or 10-15% of payout",
-      "channels": ["Reddit r/legaladvice", "Facebook groups", "content-site SEO", "newsletter"],
-      "tools": ["openclassactions.com", "Notion", "Calendly", "Stripe"],
+      "channels": [
+        "Reddit r/legaladvice",
+        "Facebook groups",
+        "content-site SEO",
+        "newsletter"
+      ],
+      "tools": [
+        "openclassactions.com",
+        "Notion",
+        "Calendly",
+        "Stripe"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "1 week",
       "competition": "Low (feels 'too good to be true' so few do it)",
@@ -138,8 +205,17 @@
       "audience": "Busy homeowners, fleet owners, parents with many appliances.",
       "offer": "AI audits past purchases, files the warranty claims / rebates the client forgot, and takes a percentage.",
       "price": "15-25% of recovered value",
-      "channels": ["Nextdoor", "Facebook groups", "cold email", "CPA referral"],
-      "tools": ["Spreadsheets", "retailer claim portals", "Calendly"],
+      "channels": [
+        "Nextdoor",
+        "Facebook groups",
+        "cold email",
+        "CPA referral"
+      ],
+      "tools": [
+        "Spreadsheets",
+        "retailer claim portals",
+        "Calendly"
+      ],
       "difficulty": "Low",
       "time_to_first_euro": "1-2 weeks",
       "competition": "Very low (laborious, ignored)",
@@ -156,8 +232,18 @@
       "audience": "You (operator) + marketplace buyers.",
       "offer": "AI scans deals and resells genuine discounted goods on Amazon/bol.com (first-sale doctrine = legal).",
       "price": "€300-700/mo starting, scales with capital",
-      "channels": ["Amazon FBA", "bol.com", "eBay", "Facebook Marketplace"],
-      "tools": ["Keepa", "ScanPower", "seller app", "LLC/receipts"],
+      "channels": [
+        "Amazon FBA",
+        "bol.com",
+        "eBay",
+        "Facebook Marketplace"
+      ],
+      "tools": [
+        "Keepa",
+        "ScanPower",
+        "seller app",
+        "LLC/receipts"
+      ],
       "difficulty": "Medium",
       "time_to_first_euro": "2-4 weeks",
       "competition": "Medium (unsexy grunt work filters most)",
@@ -174,8 +260,17 @@
       "audience": "You (operator); buyers via domain marketplaces.",
       "offer": "AI finds underpriced expiring domains, then holds them with parking ads or flips them.",
       "price": "€50-5000/flip, parking-ad micro-income",
-      "channels": ["Afternic", "Sedo", "GoDaddy auctions", "Twitter/X"],
-      "tools": ["expired-domain scanners", "parking-ads networks", "GoDaddy/Namecheap API"],
+      "channels": [
+        "Afternic",
+        "Sedo",
+        "GoDaddy auctions",
+        "Twitter/X"
+      ],
+      "tools": [
+        "expired-domain scanners",
+        "parking-ads networks",
+        "GoDaddy/Namecheap API"
+      ],
       "difficulty": "Medium",
       "time_to_first_euro": "1-3 months",
       "competition": "Low-Medium",
@@ -192,8 +287,19 @@
       "audience": "Freelancers, small accounting practices, trades businesses.",
       "offer": "A narrow $9-29/mo tool that solves one painful, frequent, measurable workflow.",
       "price": "$2k+/mo at scale (recurring)",
-      "channels": ["Indie Hackers", "ProductHunt", "SEO blog", "Reddit niche subs"],
-      "tools": ["No-code (Bubble/Softr)", "Stripe", "Airtable", "Zapier", "Hermes"],
+      "channels": [
+        "Indie Hackers",
+        "ProductHunt",
+        "SEO blog",
+        "Reddit niche subs"
+      ],
+      "tools": [
+        "No-code (Bubble/Softr)",
+        "Stripe",
+        "Airtable",
+        "Zapier",
+        "Hermes"
+      ],
       "difficulty": "Medium",
       "time_to_first_euro": "1-3 months",
       "competition": "Low in micro-niches (one-person moat)",
@@ -210,14 +316,192 @@
       "audience": "Dentists, salons, plumbers, gyms in your city.",
       "offer": "AI builds + hosts a no-code booking/FAQ chatbot with handover to the owner.",
       "price": "€250 setup + €49/mo care",
-      "channels": ["cold email local biz", "Google Maps scrape", "Chamber of Commerce events"],
-      "tools": ["Manychat", "Voiceflow", "Zapier", "Google Sheets"],
+      "channels": [
+        "cold email local biz",
+        "Google Maps scrape",
+        "Chamber of Commerce events"
+      ],
+      "tools": [
+        "Manychat",
+        "Voiceflow",
+        "Zapier",
+        "Google Sheets"
+      ],
       "difficulty": "Medium",
       "time_to_first_euro": "1-2 weeks",
       "competition": "Low-Medium",
       "ai_execution": "AI scrapes local businesses, drafts outreach, builds the bot, deploys it, and handles onboarding via email automation. Semi-autonomous.",
       "pitch": "Never miss a lead at midnight again — your 24/7 AI receptionist.",
       "source": "earlier side-hustle research"
+    },
+    {
+      "id": "ai-kdp-lowcontent",
+      "name": "AI KDP Low-Content Books",
+      "basket": "AI Digital Products",
+      "category": "Digital Product",
+      "problem": "Low-content books (coloring, sudoku, planners, journals) sell steadily but manual production is slow and template-heavy.",
+      "audience": "Self-pub buyers on Amazon; niche hobbyists (mandala, kids, pets, fitness).",
+      "offer": "AI generates interior pages + KDP-compliant covers + Pinterest mockups, then publishes via KDP API.",
+      "price": "€0 cost, royalties €2-8/book, catalog compounds",
+      "channels": [
+        "Amazon KDP",
+        "Pinterest",
+        "Etsy POD",
+        "TikTok #kdp"
+      ],
+      "tools": [
+        "ColorCraft/Book2Color-style AI",
+        "Canva",
+        "KDP API",
+        "Hermes"
+      ],
+      "difficulty": "Low",
+      "time_to_first_euro": "2-4 weeks (KDP approval)",
+      "competition": "Medium (AI massively speeds batch production)",
+      "ai_execution": "An AI agent picks a niche, generates 30+ interior pages and a cover, exports print-ready PDFs, and publishes to KDP via API. It batches 10+ titles/week and refreshes Pinterest pins. A human only connects the KDP payout.",
+      "pitch": "AI draws the pages, KDP prints and pays. Catalog compounds while you sleep.",
+      "source": "curl DDG: ColorCraft/Book2Color AI KDP generators"
+    },
+    {
+      "id": "unclaimed-property-finder",
+      "name": "AI Unclaimed-Property Finder",
+      "basket": "AI Claim/Assistance",
+      "category": "Assistance",
+      "problem": "People are owed forgotten money (uncashed checks, deposits, insurance) across 50 state databases but never search.",
+      "audience": "Consumers owed money; heirs; small businesses with old vendors.",
+      "offer": "AI queries NAUPA/MissingMoney state databases by name, matches likely hits, and files claims for a contingency fee.",
+      "price": "10-20% of recovered (contingency)",
+      "channels": [
+        "Reddit r/personalfinance",
+        "Facebook groups",
+        "SEO site 'find my money'",
+        "Nextdoor"
+      ],
+      "tools": [
+        "NAUPA/MissingMoney APIs/scrape",
+        "Notion tracker",
+        "Calendly",
+        "Stripe"
+      ],
+      "difficulty": "Low",
+      "time_to_first_euro": "1 week",
+      "competition": "Very low (free gov databases, nobody aggregates)",
+      "ai_execution": "An AI agent queries state unclaimed-property databases by client name, scores matches, autofills claim forms via browser automation, and tracks deadlines. Contingency-only; a human handles ID verification steps.",
+      "pitch": "The government is holding your money. We find it and file for free-unless-we-win.",
+      "source": "curl DDG: NAUPA/MissingMoney/unclaimed property"
+    },
+    {
+      "id": "white-label-seo-audit",
+      "name": "AI White-Label SEO Audit Reseller",
+      "basket": "AI Services",
+      "category": "Services",
+      "problem": "Agencies and freelancers need client-ready SEO audits but lack time to produce branded, prioritized reports.",
+      "audience": "Small SEO/marketing agencies, freelancers, web designers.",
+      "offer": "AI crawls a prospect's site, generates a branded, prioritized fix-list PDF, and resells it under the agency's name.",
+      "price": "€49-199/report or €99-499/mo white-label subscription",
+      "channels": [
+        "LinkedIn agency owners",
+        "Cold email agencies",
+        "Facebook agency groups",
+        "Upwork"
+      ],
+      "tools": [
+        "AeroSearch/Syntiva-style AI",
+        "Screaming Frog free",
+        "Canva brand kit",
+        "Stripe"
+      ],
+      "difficulty": "Low-Medium",
+      "time_to_first_euro": "1-2 weeks",
+      "competition": "Low (white-label + AI = few do it well)",
+      "ai_execution": "An AI agent crawls the target site, runs the audit, writes a branded PDF with prioritized fixes, and delivers it via a client portal. It also drafts the outreach to agencies. Semi-autonomous; a human closes the white-label deal.",
+      "pitch": "Your agency's logo, our AI audit, delivered in 10 minutes.",
+      "source": "curl DDG: AeroSearch/Syntiva white-label SEO audit"
+    },
+    {
+      "id": "ai-api-arbitrage",
+      "name": "AI API Arbitrage Micro-SaaS",
+      "basket": "AI Micro-SaaS/Tooling",
+      "category": "Software",
+      "problem": "Businesses want AI features but hate API keys, rate limits, and model selection — and will pay a flat monthly for a solved endpoint.",
+      "audience": "SMBs, no-code builders, other micro-SaaS founders.",
+      "offer": "Bundle several AI APIs behind one clean endpoint with flat pricing, usage monitoring, and a no-code UI.",
+      "price": "$3k-15k/mo at scale (per documented plays)",
+      "channels": [
+        "Indie Hackers",
+        "ProductHunt",
+        "Twitter/X dev",
+        "Reddit r/SaaS"
+      ],
+      "tools": [
+        "OpenAI/Anthropic APIs",
+        "No-code (Bubble)",
+        "Stripe",
+        "Hermes"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-2 months",
+      "competition": "Low-Medium (execution-heavy)",
+      "ai_execution": "An AI agent scopes a bundled-API product, builds the no-code wrapper, wires Stripe + usage monitoring, and markets it via autoposts. It iterates from user feedback. Autonomous build + launch.",
+      "pitch": "One flat endpoint. No keys, no limits, no model drama. $3k-15k/mo.",
+      "source": "curl DDG: 'AI API Arbitrage Play $3K-15K/month'"
+    },
+    {
+      "id": "ai-sample-packs",
+      "name": "AI Royalty-Free Sample Packs",
+      "basket": "AI Digital Products",
+      "category": "Digital Product",
+      "problem": "Music producers need fresh, cleared royalty-free loops but buying packs is recurring cost; making them is slow.",
+      "audience": "Beatmakers, game devs, content creators needing SFX/loops.",
+      "offer": "AI generates genre/BPM/key-tagged loop & SFX packs, packaged and sold on sample marketplaces.",
+      "price": "€9-49/pack, catalog royalties",
+      "channels": [
+        "Myloopkits",
+        "Loudly",
+        "Splice-style",
+        "YouTube demos",
+        "Reddit r/WeAreTheMusicMakers"
+      ],
+      "tools": [
+        "Loudly/Magenta-style AI",
+        "DAW export",
+        "Gumroad",
+        "Hermes"
+      ],
+      "difficulty": "Low",
+      "time_to_first_euro": "2-3 weeks",
+      "competition": "Low (AI generation underused in packs)",
+      "ai_execution": "An AI agent prompts genre/BPM/key loop generation, tags and masters them, builds pack artwork, and lists on sample marketplaces via API. New packs ship weekly, compounding the catalog.",
+      "pitch": "AI makes the loops, you own the catalog. Cleared for commercial use.",
+      "source": "curl DDG: Loudly/Myloopkits AI sample packs"
+    },
+    {
+      "id": "ai-newsletter-ghost",
+      "name": "AI Newsletter Ghostwriting Service",
+      "basket": "AI Services",
+      "category": "Services",
+      "problem": "Creators/influencers want a consistent newsletter but can't write weekly; hiring a ghostwriter is pricey.",
+      "audience": "Substack/Beehiiv creators, coaches, indie operators with an audience.",
+      "offer": "AI researches the niche, writes the weekly newsletter, and auto-publishes to Substack/Beehiiv via API — under the creator's name.",
+      "price": "€99-499/mo retainer",
+      "channels": [
+        "Substack writer directory",
+        "Twitter/X creators",
+        "Cold DMs to creators",
+        "Reddit r/Substack"
+      ],
+      "tools": [
+        "Hermes",
+        "Substack/Beehiiv API",
+        "Zapier",
+        "Canva"
+      ],
+      "difficulty": "Low",
+      "time_to_first_euro": "1 week",
+      "competition": "Low-Medium",
+      "ai_execution": "An AI agent monitors the creator's niche, drafts the newsletter, queues it, and publishes via the Substack/Beehiiv API on schedule. It A/B tests subject lines. A human only approves the voice calibration.",
+      "pitch": "Your name on a weekly newsletter you never wrote. Retainer, autopiloted.",
+      "source": "curl DDG: Ghost Letters AI / WittyHat auto-publish"
     }
   ]
 }
