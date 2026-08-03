@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated": "2026-08-03",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -531,6 +531,35 @@
       "ai_execution": "After a client connects a least-privilege CMS credential and submits an approved draft, an AI agent validates the inputs, formats the post, uploads rights-safe media, sets taxonomy/metadata/schema/internal links, checks the rendered preview, schedules publication via API, and sends a QA log. Outreach, checkout, onboarding, fulfillment, and reporting can all run autonomously with no operator labor.",
       "pitch": "Approved draft in, polished client post live — your agency never touches the CMS.",
       "source": "curl DDG: 'automated content publishing api money' — seonix.ai CMS API workflow and 2026 service comparisons"
+    },
+    {
+      "id": "ai-low-poly-asset-packs",
+      "name": "AI Engine-Ready Low-Poly Asset Packs",
+      "basket": "AI Digital Products",
+      "category": "Digital Product",
+      "problem": "Indie game and AR creators need coherent 3D prop sets, but modeling, retopology, LOD creation, collision setup, and export QA consume days; generic AI models are rarely ready to drop into an engine.",
+      "audience": "Solo game developers, game-jam teams, no-code AR creators, and small studios needing themed low-poly props.",
+      "offer": "AI generates original themed prop kits, then automatically standardizes scale and topology, adds PBR textures, LODs and simple collision meshes, validates GLB/FBX/OBJ exports, renders previews, and ships a documented engine-ready download.",
+      "price": "€12-39/pack; €79-149 themed bundles",
+      "channels": [
+        "itch.io asset marketplace",
+        "Gumroad/Lemon Squeezy",
+        "CGTrader/Sketchfab where AI assets are permitted and labeled",
+        "Indie-game and game-jam communities"
+      ],
+      "tools": [
+        "Hermes",
+        "Meshy/Tripo API",
+        "Blender Python",
+        "Khronos glTF Validator",
+        "itch.io butler/storefront API"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "2-4 weeks",
+      "competition": "Low-Medium (coherent, performance-budgeted engine kits are a quieter layer than generic AI art or one-off 3D generations)",
+      "ai_execution": "An AI agent mines public game-development discussions for non-infringing prop needs, creates a constrained pack brief, generates original meshes and textures through an API, and runs Blender scripts for retopology, scale, pivots, LODs, collision, naming, export, render, and license-manifest generation. Automated validators reject broken or over-budget files; passing packs are packaged, listed, delivered, updated, and marketed digitally with no manual modeling, physical work, or operator fulfillment.",
+      "pitch": "A coherent low-poly world, validated and engine-ready — without a week in Blender.",
+      "source": "curl DDG: 'AI generated digital product sells passively' — '10 Passive Income Streams with AI 2025' 3D-model angle; corroborated by royalty-free AI asset marketplace results"
     }
   ]
 }
