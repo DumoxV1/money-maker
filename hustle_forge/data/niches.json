@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated": "2026-07-20",
+  "version": 5,
+  "updated": "2026-08-03",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -502,6 +502,35 @@
       "ai_execution": "An AI agent monitors the creator's niche, drafts the newsletter, queues it, and publishes via the Substack/Beehiiv API on schedule. It A/B tests subject lines. A human only approves the voice calibration.",
       "pitch": "Your name on a weekly newsletter you never wrote. Retainer, autopiloted.",
       "source": "curl DDG: Ghost Letters AI / WittyHat auto-publish"
+    },
+    {
+      "id": "ai-cms-publishing-ops",
+      "name": "AI White-Label CMS Publishing Ops",
+      "basket": "AI Services",
+      "category": "Services",
+      "problem": "SEO agencies and content teams lose billable hours moving approved drafts into client CMSs, formatting them, adding metadata and links, and checking the rendered page.",
+      "audience": "Small SEO/content agencies, freelance strategists, and multi-site publishers with approved article backlogs.",
+      "offer": "AI turns approved drafts into QA-checked WordPress, Webflow, or Ghost posts — formatting, taxonomy, metadata, internal links, rights-safe images and alt text, then scheduled publishing under the agency's brand.",
+      "price": "€149-499/mo for 10-40 posts; €10-25/post overflow",
+      "channels": [
+        "Cold email to SEO/content agencies",
+        "LinkedIn agency operators",
+        "Upwork CMS publishing jobs",
+        "SEO and agency communities"
+      ],
+      "tools": [
+        "Hermes",
+        "WordPress REST API",
+        "Webflow/Ghost APIs",
+        "Pexels/Unsplash APIs",
+        "Playwright"
+      ],
+      "difficulty": "Low-Medium",
+      "time_to_first_euro": "1-2 weeks",
+      "competition": "Low (unsexy post-production layer; most AI offers sell writing, not delivery)",
+      "ai_execution": "After a client connects a least-privilege CMS credential and submits an approved draft, an AI agent validates the inputs, formats the post, uploads rights-safe media, sets taxonomy/metadata/schema/internal links, checks the rendered preview, schedules publication via API, and sends a QA log. Outreach, checkout, onboarding, fulfillment, and reporting can all run autonomously with no operator labor.",
+      "pitch": "Approved draft in, polished client post live — your agency never touches the CMS.",
+      "source": "curl DDG: 'automated content publishing api money' — seonix.ai CMS API workflow and 2026 service comparisons"
     }
   ]
 }

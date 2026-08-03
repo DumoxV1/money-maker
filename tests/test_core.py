@@ -14,7 +14,7 @@ AI_PLANS = ROOT / "ai_plans"
 
 def run():
     niches = core.load_niches()
-    assert len(niches) == 18, f"expected 18 niches, got {len(niches)}"
+    assert len(niches) == 19, f"expected 19 niches, got {len(niches)}"
     for n in niches:
         assert "basket" in n, f"{n.get('id')} missing basket"
         assert "ai_execution" in n and n["ai_execution"], f"{n.get('id')} not AI-executable"
@@ -25,6 +25,7 @@ def run():
 
     listing = core.list_niches()
     assert "ai-kdp-lowcontent" in listing
+    assert "ai-cms-publishing-ops" in listing
 
     with tempfile.TemporaryDirectory() as d:
         plan, social = core.generate("ai-kdp-lowcontent", d)
@@ -38,7 +39,7 @@ def run():
     baskets = {n["basket"] for n in niches}
     assert len(baskets) >= 5, f"expected diversified baskets, got {baskets}"
     print(f"OK — {len(niches)} AI-executable niches across {len(baskets)} baskets; "
-          f"all 18 AI plans shipped.")
+          f"all 19 AI plans shipped.")
     return 0
 
 
