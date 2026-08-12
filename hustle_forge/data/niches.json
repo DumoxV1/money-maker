@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updated": "2026-08-03",
+  "version": 7,
+  "updated": "2026-08-12",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -560,6 +560,35 @@
       "ai_execution": "An AI agent mines public game-development discussions for non-infringing prop needs, creates a constrained pack brief, generates original meshes and textures through an API, and runs Blender scripts for retopology, scale, pivots, LODs, collision, naming, export, render, and license-manifest generation. Automated validators reject broken or over-budget files; passing packs are packaged, listed, delivered, updated, and marketed digitally with no manual modeling, physical work, or operator fulfillment.",
       "pitch": "A coherent low-poly world, validated and engine-ready — without a week in Blender.",
       "source": "curl DDG: 'AI generated digital product sells passively' — '10 Passive Income Streams with AI 2025' 3D-model angle; corroborated by royalty-free AI asset marketplace results"
+    },
+    {
+      "id": "ai-white-label-voice-agent-ops",
+      "name": "AI White-Label Inbound Voice-Agent Ops",
+      "basket": "AI Services",
+      "category": "Services",
+      "problem": "Small agencies can sell AI phone agents, but provisioning numbers, grounding each agent in approved business facts, testing call paths, monitoring transcripts, and maintaining the knowledge base require specialist time they do not have.",
+      "audience": "Small web, marketing, and automation agencies reselling inbound lead-intake and appointment agents to service businesses.",
+      "offer": "AI provisions an agency-branded, inbound-only voice agent from client-approved FAQs, connects routing and scheduling, runs synthetic call tests, monitors quality, patches the knowledge base, and delivers white-label reports.",
+      "price": "€249-599 setup + €99-299/mo per managed line; telephony usage passed through",
+      "channels": [
+        "Cold email to web and automation agencies",
+        "LinkedIn agency owners",
+        "Upwork white-label automation jobs",
+        "Agency and no-code communities"
+      ],
+      "tools": [
+        "Hermes",
+        "Vapi/Retell API",
+        "Twilio",
+        "LLM and text-to-speech APIs",
+        "Stripe/client portal"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "competition": "Low (quiet backend provisioning, test, and maintenance layer rather than another generic voice-agent agency)",
+      "ai_execution": "After an agency supplies approved business facts, escalation rules, and its own vendor credentials, an AI agent provisions the inbound number and voice workflow by API, builds a cited knowledge base, connects calendar or message intake, executes synthetic test-call suites, scores transcripts for factuality and task completion, applies bounded fixes, and emits an agency-branded QA report. Checkout, onboarding, deployment, monitoring, maintenance, reporting, and scoped support run digitally without an operator joining calls or performing fulfillment.",
+      "pitch": "Your agency sells the AI receptionist; our invisible AI ops desk keeps every inbound call accurate and working.",
+      "source": "curl DDG: 'white label AI service resell agencies' — 'White Label AI Agents | Voice AI for Agencies & Resellers'; quiet angle synthesized as inbound-only deployment and QA ops"
     }
   ]
 }
