@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated": "2026-08-12",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -589,6 +589,36 @@
       "ai_execution": "After an agency supplies approved business facts, escalation rules, and its own vendor credentials, an AI agent provisions the inbound number and voice workflow by API, builds a cited knowledge base, connects calendar or message intake, executes synthetic test-call suites, scores transcripts for factuality and task completion, applies bounded fixes, and emits an agency-branded QA report. Checkout, onboarding, deployment, monitoring, maintenance, reporting, and scoped support run digitally without an operator joining calls or performing fulfillment.",
       "pitch": "Your agency sells the AI receptionist; our invisible AI ops desk keeps every inbound call accurate and working.",
       "source": "curl DDG: 'white label AI service resell agencies' — 'White Label AI Agents | Voice AI for Agencies & Resellers'; quiet angle synthesized as inbound-only deployment and QA ops"
+    },
+    {
+      "id": "ai-white-label-vendor-watch",
+      "name": "AI White-Label Vendor Change Monitor",
+      "basket": "AI Micro-SaaS/Tooling",
+      "category": "Software",
+      "problem": "Agencies that resell white-label AI software can lose margin or break client promises when an upstream vendor quietly changes pricing, partner terms, branding controls, API behavior, security documentation, or service status.",
+      "audience": "Small AI, automation, and marketing agencies reselling third-party SaaS under their own brand, plus fractional operations leads managing several upstream vendors.",
+      "offer": "AI monitors approved public vendor, pricing, terms, API-doc, security, and status pages; verifies meaningful changes against source snapshots; maps them to the agency's products and rules; and sends a branded impact alert with an action or migration brief.",
+      "price": "€79-249/mo for 5-25 monitored vendors; €299 one-off portfolio baseline",
+      "channels": [
+        "Personalized cold email to white-label AI agencies",
+        "LinkedIn agency owners and operations leads",
+        "White-label SaaS and no-code communities",
+        "Upwork vendor-management and automation jobs"
+      ],
+      "tools": [
+        "Hermes",
+        "Playwright",
+        "changedetection.io",
+        "SQLite/Git snapshot store",
+        "Email/Slack webhooks",
+        "Stripe"
+      ],
+      "difficulty": "Low-Medium",
+      "time_to_first_euro": "1-2 weeks",
+      "competition": "Very low (quiet upstream-risk and margin-monitoring layer, not another generic AI reseller)",
+      "ai_execution": "After an agency supplies public or authorized vendor URLs plus a machine-readable product, margin, and escalation matrix, an AI agent schedules permitted page/API checks, normalizes and versions snapshots, filters cosmetic noise, verifies substantive differences against exact excerpts, maps each change to affected offers, and sends evidence-linked alerts or migration briefs. Prospecting, checkout, onboarding, monitoring, deduplication, reporting, billing, and support triage run digitally; uncertain or legal interpretations are labeled and escalated rather than invented, so the operator performs no recurring fulfillment or physical work.",
+      "pitch": "Know which upstream AI-vendor change threatens your margin before your client does.",
+      "source": "curl DDG: 'white label AI service resell agencies' — 'White-Label AI Platform For Agencies And SaaS Teams 2026' (partner terms, security checks, branding controls) and 'White-Label AI SaaS Reseller Platform For Recurring Revenue 2026'; quiet monitoring angle synthesized from reseller dependency risk"
     }
   ]
 }
