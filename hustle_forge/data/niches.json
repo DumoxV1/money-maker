@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated": "2026-08-12",
+  "version": 9,
+  "updated": "2026-08-13",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -619,6 +619,37 @@
       "ai_execution": "After an agency supplies public or authorized vendor URLs plus a machine-readable product, margin, and escalation matrix, an AI agent schedules permitted page/API checks, normalizes and versions snapshots, filters cosmetic noise, verifies substantive differences against exact excerpts, maps each change to affected offers, and sends evidence-linked alerts or migration briefs. Prospecting, checkout, onboarding, monitoring, deduplication, reporting, billing, and support triage run digitally; uncertain or legal interpretations are labeled and escalated rather than invented, so the operator performs no recurring fulfillment or physical work.",
       "pitch": "Know which upstream AI-vendor change threatens your margin before your client does.",
       "source": "curl DDG: 'white label AI service resell agencies' — 'White-Label AI Platform For Agencies And SaaS Teams 2026' (partner terms, security checks, branding controls) and 'White-Label AI SaaS Reseller Platform For Recurring Revenue 2026'; quiet monitoring angle synthesized from reseller dependency risk"
+    },
+    {
+      "id": "ai-vertical-ui-asset-kits",
+      "name": "AI Vertical-SaaS UI Asset Kits",
+      "basket": "AI Digital Products",
+      "category": "Digital Product",
+      "problem": "Indie SaaS and no-code builders in narrow industries need coherent icons and empty-state illustrations for domain-specific workflows, but generic libraries miss those concepts and custom design is expensive; raw AI vectors are often inconsistent or technically unsafe to ship.",
+      "audience": "Indie SaaS founders, no-code builders, and small product agencies serving quiet verticals such as equipment inspection, field-service quoting, laboratory tracking, and property maintenance.",
+      "offer": "AI creates original, production-checked UI kits for one vertical workflow: 40-80 SVG icons, 8-12 empty-state illustrations, light/dark and currentColor variants, semantic filenames, design tokens, PNG previews, an alt-text manifest, and a clear commercial-use license.",
+      "price": "€19-59/kit; €129 multi-workflow bundle",
+      "channels": [
+        "Lemon Squeezy/Gumroad",
+        "Indie Hackers and no-code communities",
+        "Product Hunt",
+        "Vertical-SaaS founder communities",
+        "SEO landing pages for workflow-specific asset searches"
+      ],
+      "tools": [
+        "Hermes",
+        "Commercial-rights vector generation API",
+        "SVGO",
+        "resvg/ImageMagick",
+        "Playwright visual QA",
+        "Lemon Squeezy API"
+      ],
+      "difficulty": "Low-Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "competition": "Low (workflow-specific, validated UI systems are a quieter layer than generic icon packs and raw AI art)",
+      "ai_execution": "An AI agent extracts recurring, non-proprietary workflow concepts from permitted public sources, writes a constrained visual brief, generates original vectors through a provider whose current terms allow commercial use, and normalizes every SVG. Automated gates check XML safety, external references, viewBox and stroke consistency, duplicates, path budgets, currentColor behavior, light/dark contrast, raster previews, filenames, tokens, and archive completeness. Passing kits are documented, licensed, listed, delivered, updated, and marketed digitally; failures are regenerated, so no manual illustration, physical work, or recurring operator fulfillment is required.",
+      "pitch": "Every icon your niche SaaS workflow needs — coherent, accessible, and ready to ship.",
+      "source": "curl DDG: 'royalty free AI generated asset marketplace' — 'IconScout AI - Free AI Design Tools | IconScout' (custom illustrations, vectors, 3D assets, and royalty-free generation); quiet angle synthesized as production-checked vertical-workflow UI kits"
     }
   ]
 }
