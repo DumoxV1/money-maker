@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "updated": "2026-08-13",
+  "version": 10,
+  "updated": "2026-08-14",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -650,6 +650,36 @@
       "ai_execution": "An AI agent extracts recurring, non-proprietary workflow concepts from permitted public sources, writes a constrained visual brief, generates original vectors through a provider whose current terms allow commercial use, and normalizes every SVG. Automated gates check XML safety, external references, viewBox and stroke consistency, duplicates, path budgets, currentColor behavior, light/dark contrast, raster previews, filenames, tokens, and archive completeness. Passing kits are documented, licensed, listed, delivered, updated, and marketed digitally; failures are regenerated, so no manual illustration, physical work, or recurring operator fulfillment is required.",
       "pitch": "Every icon your niche SaaS workflow needs — coherent, accessible, and ready to ship.",
       "source": "curl DDG: 'royalty free AI generated asset marketplace' — 'IconScout AI - Free AI Design Tools | IconScout' (custom illustrations, vectors, 3D assets, and royalty-free generation); quiet angle synthesized as production-checked vertical-workflow UI kits"
+    },
+    {
+      "id": "ai-procurement-renewal-briefs",
+      "name": "AI Micro-Vertical Procurement Renewal Briefs",
+      "basket": "AI Digital Products",
+      "category": "Data Product",
+      "problem": "Small specialist suppliers cannot continuously parse thousands of public-procurement notices and awards; broad tender alerts create noise and often surface an opportunity only after the market, incumbent, and likely renewal window should already have been researched.",
+      "audience": "Small EU suppliers and bid advisers focused on one quiet micro-vertical, such as laboratory calibration, archival digitization, accessibility testing, or industrial inspection software.",
+      "offer": "AI publishes an evidence-linked weekly PDF and CSV for one CPV/category and region: new notices, recent awards, buyer and incumbent patterns, stated contract periods, clearly labeled estimated renewal windows, subscriber-rule fit scores, and direct links to the official records.",
+      "price": "€49-149/mo per micro-vertical; €249 one-off 12-month market map",
+      "channels": [
+        "SEO pages for CPV and niche tender searches",
+        "LinkedIn supplier owners and bid managers",
+        "Trade-association and supplier directories",
+        "Procurement and SME communities",
+        "Beehiiv/Lemon Squeezy free sample brief"
+      ],
+      "tools": [
+        "Hermes",
+        "TED Search API/Open Data",
+        "Python and SQLite/DuckDB",
+        "PDF/CSV generation",
+        "Beehiiv/Ghost and Lemon Squeezy APIs"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "2-4 weeks",
+      "competition": "Low in single-category regional renewal intelligence (generic tender-alert platforms are established but deliberately broad)",
+      "ai_execution": "A scheduled AI agent retrieves reusable official procurement records through supported APIs, filters one CPV/category and geography, normalizes multilingual fields, links amendments, and deduplicates notices. It extracts source-grounded facts, computes deterministic market summaries, distinguishes stated contract dates from explicitly labeled estimates, validates every amount and official link, then generates, lists, sells, and delivers versioned PDF/CSV briefs. Research, checkout, publishing, customer-specific filtering, support triage, and recurring fulfillment are digital and autonomous; no person must monitor portals, write reports, attend calls, or perform physical work.",
+      "pitch": "See the next quiet public-sector sales window before it becomes another noisy tender alert.",
+      "source": "curl DDG: 'AI generated digital product sells passively' — '17 Best Digital Products to Create With AI in 2026 (That Actually Sell)' (AI research reports and industry analyses); corroborated by official TED Search API documentation permitting notice analysis and reuse; quiet angle synthesized as single-category renewal briefs rather than generic alerts"
     }
   ]
 }
