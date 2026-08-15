@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "updated": "2026-08-15",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -743,6 +743,37 @@
       "ai_execution": "After a customer uploads an authorized, approved release bundle and machine-readable brand, claim, audience, and publication rules, an AI agent validates the files, builds a cited canonical fact table, generates every channel asset, and checks each factual statement back to an exact source excerpt. Deterministic gates verify required fields, links, terminology, version numbers, dates, asset rights, render quality, and cross-format consistency; unsupported claims are blocked. Passing kits are packaged, delivered, and either saved as drafts or published through scoped APIs according to explicit authorization. Prospecting, checkout, onboarding, generation, QA, publishing, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical presence.",
       "pitch": "One approved release bundle in; every customer and sales enablement asset out — consistent, cited, and ready to publish.",
       "source": "curl DDG: 'automated content publishing api money' — 'AI Content Automation API | Podcasts, Videos, Decks & Research ...' (source material converted into podcasts, explainer videos, decks, infographics, quizzes, and research); quiet angle synthesized as source-grounded release enablement for small B2B SaaS teams"
+    },
+    {
+      "id": "ai-api-margin-reconciler",
+      "name": "AI API Margin & Usage Reconciler",
+      "basket": "AI Micro-SaaS/Tooling",
+      "category": "Software",
+      "problem": "Bootstrapped API-backed products and white-label AI services collect subscription revenue while upstream vendors bill in different units, currencies, and time windows; founders often discover unprofitable tenants, plan leakage, or a cost spike only after the invoice arrives.",
+      "audience": "Bootstrapped AI/API micro-SaaS founders, no-code product operators, and small agencies reselling API-backed services without a finance or platform-operations team.",
+      "offer": "AI reconciles authorized subscription, tenant-usage, and upstream billing records into a source-linked per-tenant margin ledger, then sends anomaly alerts and bounded cap, routing, or pricing recommendations.",
+      "price": "€79-249/mo for 3-25 products or vendor accounts; €299 one-off baseline",
+      "channels": [
+        "Personalized cold email to API-backed micro-SaaS founders",
+        "Indie Hackers and bootstrapped-SaaS communities",
+        "LinkedIn technical founders and product operators",
+        "API, LLM-ops, and no-code communities",
+        "SEO pages for per-customer API cost and SaaS margin searches"
+      ],
+      "tools": [
+        "Hermes",
+        "Stripe Billing exports/webhooks",
+        "Authorized vendor usage and invoice APIs/CSV",
+        "Python and DuckDB/SQLite",
+        "OpenTelemetry or tenant usage events",
+        "Email/Slack webhooks and Stripe"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "2-4 weeks",
+      "competition": "Low (quiet per-tenant unit-economics layer; most FinOps products target larger infrastructure teams)",
+      "ai_execution": "After a customer connects read-only billing and usage sources and declares tenant IDs, allocation rules, currencies, tax treatment, and target margins, an AI agent maps changing vendor schemas, validates every period and unit, and builds a deterministic revenue-versus-cost ledger with links to exact source records. Code—not model arithmetic—performs reconciliation and anomaly checks; missing or ambiguous mappings enter a self-serve correction queue. The agent generates evidence-linked alerts and recommendations and may apply only preauthorized, reversible usage caps or routing rules. Prospecting, checkout, onboarding, ingestion, reconciliation, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical work.",
+      "pitch": "Know which API customer is losing you money before the vendor invoice lands.",
+      "source": "curl DDG: 'API arbitrage micro saas profitable' — 'API Arbitrage: The Million-Dollar SaaS Strategy You're Overlooking' and 'Building Profitable Software with APIs'; plus 'automated content publishing api money' — 'API Monetization Model: How To Make Money From APIs'; quiet angle synthesized as per-tenant cost/revenue reconciliation"
     }
   ]
 }
