@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updated": "2026-08-14",
+  "version": 11,
+  "updated": "2026-08-15",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -680,6 +680,37 @@
       "ai_execution": "A scheduled AI agent retrieves reusable official procurement records through supported APIs, filters one CPV/category and geography, normalizes multilingual fields, links amendments, and deduplicates notices. It extracts source-grounded facts, computes deterministic market summaries, distinguishes stated contract dates from explicitly labeled estimates, validates every amount and official link, then generates, lists, sells, and delivers versioned PDF/CSV briefs. Research, checkout, publishing, customer-specific filtering, support triage, and recurring fulfillment are digital and autonomous; no person must monitor portals, write reports, attend calls, or perform physical work.",
       "pitch": "See the next quiet public-sector sales window before it becomes another noisy tender alert.",
       "source": "curl DDG: 'AI generated digital product sells passively' — '17 Best Digital Products to Create With AI in 2026 (That Actually Sell)' (AI research reports and industry analyses); corroborated by official TED Search API documentation permitting notice analysis and reuse; quiet angle synthesized as single-category renewal briefs rather than generic alerts"
+    },
+    {
+      "id": "ai-white-label-automation-qa",
+      "name": "AI White-Label Automation Regression QA",
+      "basket": "AI Services",
+      "category": "Services",
+      "problem": "Small no-code and automation agencies discover broken webhooks, schema drift, expired connections, and bad edge-case handling only after a client's n8n, Make, or Zapier workflow has silently failed; manually retesting every branch after a change destroys retainer margin.",
+      "audience": "Small no-code, AI, and operations-automation agencies maintaining repeatable webhook, API, lead-routing, reporting, and data-sync workflows for clients.",
+      "offer": "AI inventories an authorized workflow, generates synthetic regression fixtures and deterministic acceptance checks, runs non-destructive sandbox tests and production canaries, monitors execution metadata, and delivers agency-branded evidence reports plus versioned, bounded patch proposals.",
+      "price": "€199-499 onboarding + €79-249/mo for 5-25 monitored workflows",
+      "channels": [
+        "Personalized cold email to no-code and automation agencies",
+        "LinkedIn agency owners and automation leads",
+        "Upwork workflow testing and maintenance jobs",
+        "n8n, Make, Zapier, no-code, and agency communities"
+      ],
+      "tools": [
+        "Hermes",
+        "n8n/Make APIs and supported Zapier tooling",
+        "Postman/Newman",
+        "Playwright",
+        "SQLite/Git version store",
+        "Email/Slack webhooks",
+        "Stripe/client portal"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "competition": "Very low (quiet post-build regression and monitoring layer rather than another workflow-building agency)",
+      "ai_execution": "After an agency connects least-privilege authorized test credentials and supplies a workflow export, synthetic fixtures, and machine-readable acceptance rules, an AI agent maps branches and dependencies, redacts secrets, builds deterministic regression checks, executes them in a sandbox or non-destructive test mode, rechecks failures, and emits a branded evidence report. Scheduled synthetic canaries and permitted execution metadata detect drift; only preapproved low-risk fixes are versioned, applied, retested, and rolled back automatically, while reauthorization or business-rule changes go to a self-serve client approval queue. Prospecting, checkout, onboarding, testing, monitoring, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical presence.",
+      "pitch": "Your agency builds the automation once; our invisible AI QA desk proves it still works every day.",
+      "source": "curl DDG: 'white label AI service resell agencies' — 'White Label AI & Automation Services for Agencies | Buildberg' (resold AI agents, automation workflows, and analytics dashboards); quiet angle synthesized as regression QA and managed monitoring for agency-owned workflows"
     }
   ]
 }
