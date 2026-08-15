@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "updated": "2026-08-15",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -711,6 +711,38 @@
       "ai_execution": "After an agency connects least-privilege authorized test credentials and supplies a workflow export, synthetic fixtures, and machine-readable acceptance rules, an AI agent maps branches and dependencies, redacts secrets, builds deterministic regression checks, executes them in a sandbox or non-destructive test mode, rechecks failures, and emits a branded evidence report. Scheduled synthetic canaries and permitted execution metadata detect drift; only preapproved low-risk fixes are versioned, applied, retested, and rolled back automatically, while reauthorization or business-rule changes go to a self-serve client approval queue. Prospecting, checkout, onboarding, testing, monitoring, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical presence.",
       "pitch": "Your agency builds the automation once; our invisible AI QA desk proves it still works every day.",
       "source": "curl DDG: 'white label AI service resell agencies' — 'White Label AI & Automation Services for Agencies | Buildberg' (resold AI agents, automation workflows, and analytics dashboards); quiet angle synthesized as regression QA and managed monitoring for agency-owned workflows"
+    },
+    {
+      "id": "ai-saas-release-enablement",
+      "name": "AI B2B SaaS Release Enablement Kits",
+      "basket": "AI Content/SEO",
+      "category": "Content",
+      "problem": "Small B2B SaaS teams ship product changes faster than they can turn approved specifications and release notes into consistent help articles, changelogs, customer emails, sales decks, short explainers, and quizzes; conflicting or stale assets create support tickets and weak adoption.",
+      "audience": "Bootstrapped and vertical B2B SaaS companies, plus product agencies managing release communications without a dedicated customer-education or enablement team.",
+      "offer": "AI converts one client-approved release source bundle into a source-grounded enablement kit: changelog, help-center draft, customer email, sales one-pager and deck, narrated micro-explainer, FAQ/quiz, channel variants, and an evidence-linked consistency report, then publishes only through preauthorized APIs.",
+      "price": "€199-699/mo for 2-8 release kits; €99 one-off pilot",
+      "channels": [
+        "Personalized cold email to bootstrapped and vertical B2B SaaS teams",
+        "LinkedIn product marketing and customer-education leads",
+        "SaaS founder, product-led-growth, and customer-success communities",
+        "Upwork release-note, help-center, and content-repurposing jobs",
+        "SEO pages for release communication and enablement workflows"
+      ],
+      "tools": [
+        "Hermes",
+        "Source-grounded LLM/RAG pipeline",
+        "Source-to-podcast/video/deck/quiz API",
+        "Marp/Slidev and FFmpeg",
+        "Help-center/CMS and email APIs",
+        "Playwright",
+        "Stripe/self-serve intake"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "competition": "Low (quiet, release-grounded post-production layer rather than generic AI content repurposing)",
+      "ai_execution": "After a customer uploads an authorized, approved release bundle and machine-readable brand, claim, audience, and publication rules, an AI agent validates the files, builds a cited canonical fact table, generates every channel asset, and checks each factual statement back to an exact source excerpt. Deterministic gates verify required fields, links, terminology, version numbers, dates, asset rights, render quality, and cross-format consistency; unsupported claims are blocked. Passing kits are packaged, delivered, and either saved as drafts or published through scoped APIs according to explicit authorization. Prospecting, checkout, onboarding, generation, QA, publishing, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical presence.",
+      "pitch": "One approved release bundle in; every customer and sales enablement asset out — consistent, cited, and ready to publish.",
+      "source": "curl DDG: 'automated content publishing api money' — 'AI Content Automation API | Podcasts, Videos, Decks & Research ...' (source material converted into podcasts, explainer videos, decks, infographics, quizzes, and research); quiet angle synthesized as source-grounded release enablement for small B2B SaaS teams"
     }
   ]
 }
