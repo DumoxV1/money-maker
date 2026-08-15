@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "updated": "2026-08-15",
+  "version": 14,
+  "updated": "2026-08-16",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
     {
@@ -774,6 +774,37 @@
       "ai_execution": "After a customer connects read-only billing and usage sources and declares tenant IDs, allocation rules, currencies, tax treatment, and target margins, an AI agent maps changing vendor schemas, validates every period and unit, and builds a deterministic revenue-versus-cost ledger with links to exact source records. Code—not model arithmetic—performs reconciliation and anomaly checks; missing or ambiguous mappings enter a self-serve correction queue. The agent generates evidence-linked alerts and recommendations and may apply only preauthorized, reversible usage caps or routing rules. Prospecting, checkout, onboarding, ingestion, reconciliation, reporting, billing, deletion, and log-grounded support triage run digitally without recurring operator labor or physical work.",
       "pitch": "Know which API customer is losing you money before the vendor invoice lands.",
       "source": "curl DDG: 'API arbitrage micro saas profitable' — 'API Arbitrage: The Million-Dollar SaaS Strategy You're Overlooking' and 'Building Profitable Software with APIs'; plus 'automated content publishing api money' — 'API Monetization Model: How To Make Money From APIs'; quiet angle synthesized as per-tenant cost/revenue reconciliation"
+    },
+    {
+      "id": "ai-microsaas-complaint-briefs",
+      "name": "AI Micro-SaaS Complaint Validation Briefs",
+      "basket": "AI Services",
+      "category": "Research Service",
+      "problem": "Solo builders waste weeks on generic idea lists and self-confirming surveys, while concrete complaints, failed workarounds, switching friction, and counter-signals are scattered across permitted public communities, issue trackers, reviews, and support discussions.",
+      "audience": "Bootstrapped developers, no-code founders, product studios, and small SaaS agencies deciding whether one narrowly defined problem and buyer segment deserves a build or discovery sprint.",
+      "offer": "AI turns one founder-supplied problem and audience hypothesis into a versioned, evidence-linked validation brief: source coverage, deduplicated complaint clusters, quoted pain and workaround signals, incumbent gaps, counter-evidence, deterministic frequency tables, confidence limits, and a bounded MVP/interview test plan.",
+      "price": "€59 quick brief; €149 deep brief; €199/mo for a three-hypothesis watchlist",
+      "channels": [
+        "Indie Hackers and bootstrapped-founder communities",
+        "Personalized outreach to no-code and micro-SaaS builders",
+        "Product, validation, and founder communities",
+        "Upwork product-research jobs",
+        "SEO pages for evidence-based niche validation"
+      ],
+      "tools": [
+        "Hermes",
+        "Permitted official APIs, RSS feeds, and open datasets",
+        "Python and DuckDB/SQLite",
+        "Playwright for explicitly permitted public pages",
+        "JSON Schema and PDF/CSV generation",
+        "Lemon Squeezy/Stripe self-serve checkout"
+      ],
+      "difficulty": "Low-Medium",
+      "time_to_first_euro": "1-2 weeks",
+      "competition": "Low-Medium (source-linked complaint provenance, counter-evidence, and reproducible QA are a quieter layer than generic AI idea generators)",
+      "ai_execution": "After a customer submits one bounded problem, audience, geography, timeframe, and source policy, an AI agent queries only permitted APIs, feeds, open datasets, and authorized public pages; stores source URLs, timestamps, terms metadata, and hashes; redacts unnecessary personal data; deduplicates near-identical posts; and clusters complaint, workaround, switching, payment-intent, and counter-signals. Deterministic code calculates source-level counts and coverage while the model extracts short cited evidence and abstains when support is weak. Automated gates re-open links, verify every excerpt, expose duplicates and source bias, block market-size or revenue inventions, and render a versioned PDF/CSV. Checkout, intake, research, QA, delivery, watchlist refreshes, billing, deletion, and log-grounded support triage run digitally without interviews, calls, manual research, operator fulfillment, or physical presence.",
+      "pitch": "Before you build the micro-SaaS, see the complaints, workarounds, and counter-evidence—not another AI idea score.",
+      "source": "curl DDG: 'API arbitrage micro saas profitable' — '50 Micro SaaS Ideas for 2026, Validated by 1M+ Real Complaints'; quiet angle synthesized as reproducible, source-linked complaint validation briefs rather than generic idea generation"
     }
   ]
 }
