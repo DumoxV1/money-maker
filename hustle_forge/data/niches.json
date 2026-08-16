@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "updated": "2026-08-16",
   "strategy": "Every niche must be (a) generatable purely by an AI and (b) executable by an AI agent autonomously (no physical presence, no human body). Diversified across 6 baskets so income streams don't correlate.",
   "niches": [
@@ -805,6 +805,37 @@
       "ai_execution": "After a customer submits one bounded problem, audience, geography, timeframe, and source policy, an AI agent queries only permitted APIs, feeds, open datasets, and authorized public pages; stores source URLs, timestamps, terms metadata, and hashes; redacts unnecessary personal data; deduplicates near-identical posts; and clusters complaint, workaround, switching, payment-intent, and counter-signals. Deterministic code calculates source-level counts and coverage while the model extracts short cited evidence and abstains when support is weak. Automated gates re-open links, verify every excerpt, expose duplicates and source bias, block market-size or revenue inventions, and render a versioned PDF/CSV. Checkout, intake, research, QA, delivery, watchlist refreshes, billing, deletion, and log-grounded support triage run digitally without interviews, calls, manual research, operator fulfillment, or physical presence.",
       "pitch": "Before you build the micro-SaaS, see the complaints, workarounds, and counter-evidence—not another AI idea score.",
       "source": "curl DDG: 'API arbitrage micro saas profitable' — '50 Micro SaaS Ideas for 2026, Validated by 1M+ Real Complaints'; quiet angle synthesized as reproducible, source-linked complaint validation briefs rather than generic idea generation"
+    },
+    {
+      "id": "ai-api-marketplace-launch-ops",
+      "name": "AI API Marketplace Launch Ops",
+      "basket": "AI Services",
+      "category": "Developer Service",
+      "problem": "Indie developers often have a working API but no validated OpenAPI contract, executable examples, coherent documentation, usage plans, or synchronized marketplace listings; post-build packaging delays revenue and quietly breaks after releases.",
+      "audience": "Indie API developers, bootstrapped micro-SaaS founders, and small software agencies with a deployed, customer-authorized API but no developer-relations or monetization-operations team.",
+      "offer": "AI turns a customer-owned API contract, repository, and sandbox endpoint into a tested launch kit: repaired OpenAPI spec, quickstarts, executable examples, SDK samples, usage-plan matrix, branded docs, marketplace/developer-portal listings, and versioned update sync.",
+      "price": "€149-499 per launch kit; €49-149/mo for contract, docs, and listing sync",
+      "channels": [
+        "Personalized outreach to public indie API projects",
+        "Indie Hackers and API-founder communities",
+        "API marketplace seller communities",
+        "Upwork API documentation and launch jobs",
+        "SEO pages for OpenAPI monetization and API listing setup"
+      ],
+      "tools": [
+        "Hermes",
+        "OpenAPI, Spectral, and Redocly",
+        "Schemathesis/Dredd",
+        "OpenAPI Generator",
+        "GitHub Actions",
+        "Authorized API marketplace/developer-portal APIs"
+      ],
+      "difficulty": "Medium",
+      "time_to_first_euro": "1-3 weeks",
+      "competition": "Low (quiet post-build contract, QA, documentation, and distribution layer rather than another API-development agency)",
+      "ai_execution": "After a customer connects an authorized repository, API contract, and non-production endpoint, an AI agent builds a source-grounded operation catalog, repairs documentation-only contract gaps, generates docs/examples/SDK samples and listing assets, then runs isolated lint, contract, compile, link, secret, and render checks. Passing artifacts are delivered or published through explicitly authorized channels and kept synchronized to tagged releases; prospecting, checkout, onboarding, fulfillment, monitoring, billing, and log-grounded support run digitally without operator coding, calls, physical presence, or recurring manual work.",
+      "pitch": "Working API in; validated contract, executable docs, and a marketplace-ready launch out.",
+      "source": "curl DDG: 'automated content publishing api money' — 'API Economy: How Developers Make Money with APIs in 2026', 'The Top 24 API Monetization Platforms in 2026', and 'API Monetization Model: How To Make Money From APIs'; quiet angle synthesized as contract-validated marketplace launch ops for existing APIs"
     }
   ]
 }
